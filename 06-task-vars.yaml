@@ -4,7 +4,7 @@
   vars:
     COURSE: AWS with DevOps
     DURATION: 10 Hours
-    Trainer: Siva
+    TRAINER: Siva
   tasks:
   - name: Print Course information
     vars:
