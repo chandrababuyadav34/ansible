@@ -1,0 +1,10 @@
+- name: play variables
+  hosts: frontend
+  vars:
+    COURSE= ansible
+    DURATION: 10Hours
+    TRAINER: Siva
+  tasks:
+  - name: Print coure information
+    ansible.nuiltin.debug:
+      msg: "The course is : {{ COURSE }} Duration of the course is {{ DURATION}} and the Trainer is {{ TRAINER }}" 
