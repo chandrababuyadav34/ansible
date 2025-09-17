@@ -1,5 +1,6 @@
 - name: play variables
-  hosts: frontend
+  hosts: local
+  connection: local
   vars:
     COURSE= ansible
     DURATION: 10Hours
