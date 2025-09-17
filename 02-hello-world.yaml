@@ -2,6 +2,6 @@
   hosts: local
   connection: local
   tasks:
-  - name= Hello world
+  - name= print Hello world
     ansible.builtin.debug:
       msg: "Hello World my first ansible script"
