@@ -12,4 +12,4 @@
   - name: Print if the number is greater than 100
     ansible.builtin.debug:
       msg: "Given Number is {{ NUMBER }} is more than 100"
-    when: NUMBER > 100        
+    when: NUMBER > 100  
